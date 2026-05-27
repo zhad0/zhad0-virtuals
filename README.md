@@ -1,6 +1,6 @@
 # @zhad0/virtuals-adapter
 
-[![Status](https://img.shields.io/badge/status-live-00d26a.svg)](https://zhad0.io) [![npm](https://img.shields.io/npm/v/@zhad0/virtuals-adapter.svg)](https://www.npmjs.com/package/@zhad0/virtuals-adapter) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-live-00d26a.svg)](https://zhad0.io) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![npm: coming](https://img.shields.io/badge/npm-coming__soon-gray.svg)](https://github.com/zhad0/zhad0-virtuals)
 
 ZHAD0 Protocol adapter for [Virtuals Protocol](https://github.com/Virtual-Protocol/virtuals-python) agents — privacy-preserving intent submission on Base L2.
 
