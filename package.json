@@ -1,0 +1,41 @@
+{
+  "name": "@zhad0/virtuals-adapter",
+  "version": "0.1.0",
+  "description": "ZHAD0 Protocol adapter for Virtuals Protocol agents — privacy-preserving intent submission on Base L2",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "LICENSE", "README.md"],
+  "scripts": {
+    "build": "tsc --build",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "zhad0", "virtuals", "virtuals-protocol", "game", "adapter", "privacy",
+    "zk", "ai-agents", "base-l2", "mev-protection", "ghost-relay", "web3"
+  ],
+  "author": "zhad0 <dev@zhad0.io>",
+  "license": "MIT",
+  "homepage": "https://zhad0.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhad0/zhad0-virtuals.git"
+  },
+  "bugs": { "url": "https://github.com/zhad0/zhad0-virtuals/issues" },
+  "peerDependencies": {
+    "@virtuals-protocol/game": ">=2.0.0",
+    "@zhad0/sdk": ">=0.0.0-design.1"
+  },
+  "devDependencies": {
+    "@virtuals-protocol/game": "^2.0.7",
+    "@zhad0/sdk": "^0.0.0-design.1",
+    "typescript": "^5.4.5"
+  }
+}
